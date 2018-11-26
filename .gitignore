@@ -1,4 +1,5 @@
 *.dbf
 .ipynb_checkpoints
-dados/completo.csv
+dados/*completo.csv
 *-teste.ipynb
+.vscode
