@@ -1,6 +1,5 @@
 *.dbf
 .ipynb_checkpoints
-dados/*completo.csv
 *-teste.ipynb
 .vscode
 blazegraph.jnl

@@ -1,4 +1,6 @@
 #!/bin/bash
+cd dados
+
 #####################
 ## DADOS COMPLETOS ##
 
@@ -26,3 +28,5 @@ fi
 
 # montagem das amostras
 tail -n +2 flaredown-completo.csv | shuf | shuf -n $_num | sed '/"/d' >> flaredown.csv
+
+cd ..
