@@ -1,0 +1,5 @@
+#!/bin/bash
+
+java -server -Xmx4g -jar ferramentas/blazegraph.jar &
+
+exec "$@"
