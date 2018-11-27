@@ -21,7 +21,7 @@ if [ -n "$1" ]
 then
     _num=$1
 else
-    _num=50000
+    _num=10000
 fi
 
 # montagem das amostras
