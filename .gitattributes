@@ -1,1 +1,2 @@
 dados/*.csv filter=lfs diff=lfs merge=lfs -text
+firguras filter=lfs diff=lfs merge=lfs -image
